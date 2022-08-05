@@ -1,16 +1,16 @@
 import React from "react";
 import axios from "axios";
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import Results from "./Results";
 
 const Confirmation = ({ prevStep, nextStep, values }) => {
   console.log(values);
-  const { price, displacement, fuel, power } = values;
-  const Continue = (e) => {
-    e.preventDefault();
-    nextStep();
-  };
+  // const { price, displacement, fuel, power } = values;
+  // const Continue = (e) => {
+  //   e.preventDefault();
+  //   nextStep();
+  // };
 
   const Previous = (e) => {
     e.preventDefault();
@@ -20,7 +20,7 @@ const Confirmation = ({ prevStep, nextStep, values }) => {
   const[dat, setData] = useState({})
   const[showBttnClick, setBtnClick] = useState(false)
 
-  let history = useHistory();
+  // let history = useHistory();
 
   const userData = {
     price: values.price,

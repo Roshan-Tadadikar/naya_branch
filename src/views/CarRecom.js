@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../images/avatar.png";
+// import avatar from "../images/avatar.png";
 import { useHistory } from "react-router-dom";
 import IndexNavbar from "Components/Navbars/IndexNavbar.js";
 import wallet from "../images/purse.jpg";
@@ -7,9 +7,9 @@ import car from "../images/Car.png";
 import carengine from "../images/car-engine.jpg";
 import carpump from "../images/gas-pump.jpg";
 
-const mystyle = {
-  fontFamily: "Product Sans",
-};
+// const mystyle = {
+//   fontFamily: "Product Sans",
+// };
 
 function CarRecom() {
   let history1 = useHistory();

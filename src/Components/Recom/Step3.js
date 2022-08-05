@@ -1,6 +1,6 @@
 import React from "react";
 import IndexNavbar from "Components/Navbars/IndexNavbar.js";
-import bmw from "images/bmw-engine.jpg";
+// import bmw from "images/bmw-engine.jpg";
 const Step3 = ({ prevStep, nextStep, handleChange, values }) => {
   const Continue = (e) => {
     e.preventDefault();
